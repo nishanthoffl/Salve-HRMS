@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+.usersupport-container {
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #007bff;
+    padding: 15px;
+    color: white;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    cursor: pointer;
+}
+
+.user-profile {
+    display: flex;
+    align-items: center;
+}
+
+.user-support-btn {
+    background-color: #6c757d;
+    border: none;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.user-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.support-content {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.support-form {
+    background: white;
+    padding: 20px;
+    width: 40%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-field {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+}
+
+.submit-btn {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.faq-ticketing {
+    width: 50%;
+}
+
+.faq-section, .ticketing-system {
+    background: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.faq-item {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.ticketing-system table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.ticketing-system th, .ticketing-system td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ccc;
+}
+
+.ticketing-system th {
+    background-color: #007bff;
+    color: white;
+}

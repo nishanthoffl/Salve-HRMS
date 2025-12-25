@@ -1,0 +1,282 @@
+/* General Container */
+.legal-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #ffffff;
+  }
+  
+  /* Navigation Bar */
+  .navbar {
+    display: flex;
+    align-items: center;
+    background-color: #007bff;
+    padding: 15px;
+    color: white;
+  }
+  
+  .logo {
+    font-size: 22px;
+    font-weight: bold;
+    margin-right: auto;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links li {
+    cursor: pointer;
+  }
+  
+  .nav-links .active {
+    background-color: white;
+    color: #007bff;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .profile-icon {
+    width: 40px;
+    height: 40px;
+    background-color: gray;
+    border-radius: 50%;
+  }
+  
+  /* Main Content */
+  .content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  /* Company Registration Form */
+  .company-registration {
+    width: 35%;
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .company-registration h2 {
+    margin-bottom: 15px;
+  }
+  
+  .company-registration label {
+    display: block;
+    margin: 5px 0;
+  }
+  
+  .company-registration input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .submit-info {
+    width: 100%;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Document Management */
+  .document-management {
+    width: 60%;
+  }
+  
+  .document-management h2 {
+    margin-bottom: 10px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .delete-icon {
+    color: red;
+    cursor: pointer;
+  }
+  
+  .upload-doc, .submit-registration {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .upload-doc {
+    background-color: green;
+    color: white;
+  }
+  
+  .submit-registration {
+    background-color: blue;
+    color: white;
+  }
+  
+  /* Legal Support */
+  .legal-support {
+    margin-top: 20px;
+  }
+  
+  .view-faqs, .contact-expert {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    margin-right: 10px;
+  }
+/* General Container */
+.legal-container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+/* Navigation Bar */
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: #007bff;
+  padding: 15px;
+  color: white;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+  margin-right: auto;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li {
+  cursor: pointer;
+}
+
+.nav-links .active {
+  background-color: white;
+  color: #007bff;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.profile-icon {
+  width: 40px;
+  height: 40px;
+  background-color: gray;
+  border-radius: 50%;
+}
+
+/* Main Content */
+.content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+/* Company Registration Form */
+.company-registration {
+  width: 35%;
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.company-registration h2 {
+  margin-bottom: 15px;
+}
+
+.company-registration label {
+  display: block;
+  margin: 5px 0;
+}
+
+.company-registration input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.submit-info {
+  width: 100%;
+  padding: 10px;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Document Management */
+.document-management {
+  width: 60%;
+}
+
+.document-management h2 {
+  margin-bottom: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 10px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #007bff;
+  color: white;
+}
+
+.delete-icon {
+  color: red;
+  cursor: pointer;
+}
+
+/* Legal Support (Now Below Document Management) */
+.legal-support {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.view-faqs, .contact-expert {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: green;
+  color: white;
+  margin-right: 10px;
+}
